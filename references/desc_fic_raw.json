@@ -1,0 +1,177 @@
+{
+  "caracteristiques": {
+    "rubrique": [],
+    "fichiers": [
+      {
+        "nom": "caracteristiques-2019.csv",
+        "sep": ";"
+      },
+      {
+        "nom": "caracteristiques-2020.csv",
+        "sep": ";"
+      },
+      {
+        "nom": "carcteristiques-2021.csv",
+        "sep": ";"
+      },
+      {
+        "nom": "carcteristiques-2022.csv",
+        "sep": ";",
+        "rename_cols": {
+          "Accident_Id": "Num_Acc"
+        }
+      },
+      {
+        "nom": "caract-2023.csv",
+        "sep": ";"
+      }
+    ],
+    "dtypes": {
+      "Accident_Id": "int64",
+      "Num_Acc": "int64",
+      "an": "int64",
+      "mois": "int64",
+      "jour": "int64",
+      "hrmn": "object",
+      "lum": "object",
+      "agg": "int64",
+      "int": "object",
+      "atm": "object",
+      "col": "object",
+      "com": "object",
+      "adr": "object",
+      "gps": "object",
+      "lat": "object",
+      "long": "object",
+      "dep": "object"
+    }
+  },
+  "usagers": {
+    "rubrique": [],
+    "fichiers": [
+      {
+        "nom": "usagers-2019.csv",
+        "sep": ";"
+      },
+      {
+        "nom": "usagers-2020.csv",
+        "sep": ";"
+      },
+      {
+        "nom": "usagers-2021.csv",
+        "sep": ";"
+      },
+      {
+        "nom": "usagers-2022.csv",
+        "sep": ";"
+      },
+      {
+        "nom": "usagers-2023.csv",
+        "sep": ";"
+      }
+    ],
+    "dtypes": {
+      "Num_Acc": "int64",
+      "place": "object",
+      "catu": "object",
+      "grav": "object",
+      "sexe": "object",
+      "trajet": "object",
+      "secu": "object",
+      "locp": "object",
+      "actp": "object",
+      "etatp": "object",
+      "an_nais": "object",
+      "num_veh": "object",
+      "id_vehicule": "object",
+      "secu1": "object",
+      "secu2": "object",
+      "secu3": "object",
+      "id_usager": "object"
+    }
+  },
+  "vehicules": {
+    "rubrique": [],
+    "fichiers": [
+      {
+        "nom": "vehicules-2019.csv",
+        "sep": ";"
+      },
+      {
+        "nom": "vehicules-2020.csv",
+        "sep": ";"
+      },
+      {
+        "nom": "vehicules-2021.csv",
+        "sep": ";"
+      },
+      {
+        "nom": "vehicules-2022.csv",
+        "sep": ";"
+      },
+      {
+        "nom": "vehicules-2023.csv",
+        "sep": ";"
+      }
+    ],
+    "dtypes": {
+      "Num_Acc": "int64",
+      "senc": "object",
+      "catv": "int64",
+      "occutc": "object",
+      "obs": "object",
+      "obsm": "object",
+      "choc": "object",
+      "manv": "object",
+      "num_veh": "object",
+      "id_vehicule": "object",
+      "motor": "object"
+    }
+  },
+  "lieux": {
+    "rubrique": [],
+    "fichiers": [
+      {
+        "nom": "lieux-2019.csv",
+        "sep": ";"
+      },
+      {
+        "nom": "lieux-2020.csv",
+        "sep": ";"
+      },
+      {
+        "nom": "lieux-2021.csv",
+        "sep": ";"
+      },
+      {
+        "nom": "lieux-2022.csv",
+        "sep": ";"
+      },
+      {
+        "nom": "lieux-2023.csv",
+        "sep": ";"
+      }
+    ],
+    "dtypes": {
+      "Num_Acc": "int64",
+      "catr": "object",
+      "voie": "object",
+      "v1": "object",
+      "v2": "object",
+      "circ": "object",
+      "nbv": "object",
+      "pr": "object",
+      "pr1": "object",
+      "vosp": "object",
+      "prof": "object",
+      "plan": "object",
+      "lartpc": "object",
+      "larrout": "object",
+      "surf": "object",
+      "infra": "object",
+      "situ": "object",
+      "env1": "object",
+      "vma": "float64"
+    }
+  }
+}
